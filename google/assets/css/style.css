@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    word-spacing: 18px;
+}
+
+.header p {
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    font-size: 14px;
+    color: black;
+
+}
+
+.header p a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.header p a:nth-child(3) {
+    height: 40px;
+    width: 40px;
+
+}
+.header p a:nth-child(3):hover {
+ border-radius: 50%;
+ background-color: rgb(206, 200, 200);
+}
+
+.a {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    text-align: center;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: navy;
+}
+.a p {
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin: 5px 9px ;
+
+}
+
+.header p a:hover {
+text-decoration: underline;
+
+}
+
+
+
+.google {
+    width: 585px;
+    margin: 106px auto ;
+    position: relative; 
+    text-align: center;
+}
+
+.google .search input:focus {
+    outline: none;
+}
+
+.google img {
+    display: block;
+    margin: 0px auto 0px;
+}
+
+.google .search input {
+    width: 585px;
+    height: 46px;
+    border-radius: 100px;
+    margin: 50px auto 0px;
+    padding: 6px 44px 6px 44px;
+    border: 1px solid #cac5c5;
+}
+
+.google .search input:hover {
+    box-shadow: .5px 1px 3px rgb(190, 185, 185);
+    border: 1px solid #cac5c5;
+}
+
+
+.google .search svg {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 155px;
+    right: 12px;
+}
+
+.google .search i {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 158px;
+    left: 17px;
+}
+
+.google .search .button button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043; 
+    font-size: 14px;
+    padding: 0px 16px;
+    height: 36px;
+    margin: 25px 4px;
+}
+
+.google .search .button button:hover{
+
+    box-shadow: 2px 1px 4px #3c4043; 
+ 
+}
+
+.google .search a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.google .search p {
+    font-size: 12px;
+    margin: 30px auto;
+   
+}
+
+.bangladesh {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    width: 96%;
+    background-color: #eaeaea;
+    position: absolute;
+    bottom: 48px;
+}
+
+.footer {
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    width: 96%;
+    background-color: #eaeaea;
+    text-decoration: none;
+    padding: 15px 30px;
+    word-spacing: 30px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+
+.footer a:hover {
+    color: rgba(0,0,0,.54);
+    text-decoration: underline;
+
+}
+
+.footer a:nth-child(4){
+    word-spacing: 2px;
+
+}
+.footer a:nth-child(5){
+    margin-left: 600px;
+}
