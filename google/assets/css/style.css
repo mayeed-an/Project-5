@@ -83,6 +83,7 @@ text-decoration: underline;
     margin: 50px auto 0px;
     padding: 6px 44px 6px 44px;
     border: 1px solid #cac5c5;
+    
 }
 
 .google .search input:hover {
@@ -107,7 +108,7 @@ text-decoration: underline;
     left: 17px;
 }
 
-.google .search .button button{
+.google .search .button button {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -117,7 +118,10 @@ text-decoration: underline;
     height: 36px;
     margin: 25px 4px;
 }
-
+.google .search .button a {
+    color: black;
+    text-decoration: none;
+}
 .google .search .button button:hover{
 
     box-shadow: 2px 1px 4px #3c4043; 
